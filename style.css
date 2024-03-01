@@ -1,0 +1,196 @@
+
+@font-face {
+    font-family: "Handjet";
+    src: url("Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf")
+
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Handjet";
+}
+
+#whiteBKG {
+background-color: rgb(255, 255, 255);
+color: #000;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red; 
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.half-width-image {
+    max-width: 50vw; 
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.half-width-image:hover {
+    filter: brightness(50%);
+  }
+
+.full-width-image {
+    max-width: 100vw; 
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev,
+.home,
+.next {
+    font-size: 60px;
+}
+
+.prev {
+    margin-right: auto; 
+}
+
+.home {
+    margin: 0 auto;
+}
+
+.next {
+    margin-left: auto; 
+}
+
+.outer_container {
+display: flex;
+height: 100vh;
+flex-flow: column;
+}
+
+.inner_container {
+display: flex;
+flex-grow: 1;
+flex-flow: row;
+}
+
+.header {
+    height: 25vh;
+    border: 1px solid white;
+    font-size: 3em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.footer {
+    height: 25vh;
+    border: 1px solid white;
+    font-size: 3em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.image {
+    border: 1px solid white;
+    width: 25vh;
+    /* margin: 50px; */
+}
+
+.image-1 {
+    color: aliceblue;
+    background-image: url('5.png');
+    background-size: cover;
+    background-position: center;
+}
+.image-2 {
+    color: aliceblue;
+    background-image: url('2.png');
+    background-size: cover;
+    background-position: center;
+}
+.image-3 {
+    color: aliceblue;
+    background-image: url('1.png');
+    background-size: cover ;
+    background-position: center;
+}
+.image-4 {
+    color: aliceblue;
+    background-image: url('3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+background-color: black;
+width: auto;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+display: grid;
+width: 100vw;
+height: 100vh;
+border: red;
+grid-template-rows: 1fr 3fr;
+grid-template-columns: 1fr 2fr;
+}
+
+.item_1 {
+    color: aliceblue;
+    border: 2px dotted blueviolet;
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+.item_2 {
+    color: aliceblue;
+    background-color: brown;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item_3 {
+    color: aliceblue;
+    border: 2px solid white;
+}
+
+.item_4 {
+    color: aliceblue;
+    border: 2px dotted rgb(43, 116, 226);
+}
